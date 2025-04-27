@@ -1,0 +1,10 @@
+
+def rombo(x, y, d1, d2, t):
+    t.penup()
+    t.goto(x, y)
+    t.pendown()
+    for i in range(2):
+        t.forward()
+        t.left(144)
+        t.forward()
+        t.right(144)
